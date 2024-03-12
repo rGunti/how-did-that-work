@@ -18,13 +18,13 @@ export default defineUserConfig({
   }),
 
   lang: 'en-US',
-  title: 'How did this work?',
+  title: 'How did that work?',
   description: 'Because nobody is gonna remember this.',
 
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'How did this work?',
+      title: 'How did that work?',
       description: 'Because nobody is gonna remember this.',
     },
     '/de/': {
