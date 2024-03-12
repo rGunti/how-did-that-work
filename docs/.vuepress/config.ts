@@ -3,16 +3,25 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
+import { navbarEn, sidebarEn, navbarDe, sidebarDe } from './configs';
 
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
+    hostname: 'https://how.did-that.work',
+    docsDir: 'docs',
     locales: {
       '/' : {
-        selectedLanguageName: 'English'
+        selectedLanguageName: 'English',
+        navbar: navbarEn,
+        sidebar: sidebarEn,
       },
-      '/de/': {
-        selectedLanguageName: 'Deutsch'
+      '/auf-deutsch/': {
+        selectedLanguageName: 'Deutsch',
+        selectLanguageText: 'Sprache',
+        selectLanguageAriaLabel: 'Wähle eine Sprache',
+        navbar: navbarDe,
+        sidebar: sidebarDe,
       }
     }
   }),
@@ -27,24 +36,26 @@ export default defineUserConfig({
       title: 'How did that work?',
       description: 'Because nobody is gonna remember this.',
     },
-    '/de/': {
+    '/auf-deutsch/': {
       lang: 'de-DE',
       title: 'Wie funktioniert das?',
       description: 'Weil sich das Keiner merken kann.',
     },
   },
+
   plugins: [
     searchPlugin({
       locales: {
         '/': {
           placeholder: 'Search',
         },
-        '/de/': {
+        '/auf-deutsch/': {
           placeholder: 'Suchen',
         },
       },
     }),
     pwaPlugin({}),
   ],
+
   shouldPrefetch: false,
 })
