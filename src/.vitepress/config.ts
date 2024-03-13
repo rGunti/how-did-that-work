@@ -33,13 +33,13 @@ export default defineConfig({
     nav: [
       {
         text: 'Tags',
-        link: '/tags',
-        activeMatch: '/tags',
+        link: '/blog/tags',
+        activeMatch: '/blog/tags',
       },
       {
         text: 'Archives',
-        link: '/archives',
-        activeMatch: '/archives',
+        link: '/blog/archives',
+        activeMatch: '/blog/archives',
       },
     ],
 
