@@ -1,5 +1,0 @@
----
-home: true
-title: How did that work?
-footer: MIT Licensed | Copyright © 2024-present Raphael Guntersweiler
----
