@@ -32,22 +32,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          # choose node.js version to use
           node-version: 20
           # cache deps for pnpm
           cache: npm
 
       - name: Install dependencies
         run: npm install
-
-      # run build script
-      - name: Build VuePress site
-        run: npm run docs:build
-      
+      - name: Build site
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vuepress/dist
+          path: docs/.vitepress/dist
 
   deploy:
     environment:
