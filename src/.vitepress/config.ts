@@ -45,6 +45,12 @@ export default defineConfig({
 
     sidebar: [],
 
+    markdown: {
+      image: {
+        lazyLoading: true
+      }
+    },
+
     socialLinks: [
       {
         icon: 'github',

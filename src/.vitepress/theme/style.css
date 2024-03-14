@@ -89,3 +89,7 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
+/* Make links more obvious */
+a:not(.VPNavBarMenuLink):not(.title) {
+  text-decoration: underline;
+}
