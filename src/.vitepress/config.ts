@@ -54,7 +54,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/jcamp-code/vitepress-blog-theme',
+        link: 'https://github.com/rgunti/how-did-that-work',
       },
     ],
   },
