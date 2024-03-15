@@ -49,6 +49,15 @@ Mit den folgenden Zugangsdaten kannst du die gängisten Mail-Clients einrichten.
 | SMTP Port     | 465                      | 465                      |
 | Benutzername  | _name_@guntersweiler.net | _name_@guntersweiler.net |
 
+Darüber hinaus findest du hier die Zugangsdaten für Adressbuch und Kalender:
+
+- Adressbuch:
+    - alt: ~~`https://mail.gunti.cloud/SOGo/dav/<name>@guntersweiler.net/Contacts/personal/`~~
+    - neu: `https://hosted.mailcow.de/SOGo/dav/<name>@guntersweiler.net/Contacts/personal/`
+- Kalender:
+    - alt: ~~`https://mail.gunti.cloud/SOGo/dav/<name>@guntersweiler.net/Calendar/personal/`~~
+    - neu: `https://hosted.mailcow.de/SOGo/dav/<name>@guntersweiler.net/Calendar/personal/`
+
 ## Einrichten Endgeräte
 
 ### iPhone / iPad
@@ -96,7 +105,7 @@ Du kannst entweder das bestehene Email-Konto aus Thunderbird löschen und neu an
 4. Klicke anschliessend erneut auf "Konten-Aktionen" und wähle "E-Mail-Konto hinzufügen...".<br>![](./gnm-assets/thunderbird/add-1.png)
 5. Gib deinen Namen, deine Email-Adresse und dein neues Passwort ein. Stelle sicher, dass "Passwort speichern" aktiviert ist. Klicke anschliessend auf "Weiter".
 6. Wenn Thunderbird die Einstellungen automatisch erkennt, prüfe ob der Posteingangs- und Postausgangs-Server als `hosted.mailcow.de` erkannt wurden. Wenn nicht, muss die Konfiguration manuell durchgeführt werden. Klicke dazu unten auf "Manuell einrichten". Sollten die Einstellungen korrekt erkannt worden sein, klicke auf "Fertig". Du kannst die folgenden Schritte überspringen.<br>![](./gnm-assets/thunderbird/add-2.png)
-7. Solltest du die Einstellungen manuell erfassen müssen, benutze die oben unter "Allgemeine Zugangsdaten" genannten Infos.<br>![](./gnm-assets/thunderbird/add-3.png)
+7. Solltest du die Einstellungen manuell erfassen müssen, benutze die oben unter "[Allgemeine Zugangsdaten][connections]" genannten Infos.<br>![](./gnm-assets/thunderbird/add-3.png)
 8. Klicke anschliessend auf "Erneut testen". Sollte Thunderbird die Einstellungen akzeptieren, klicke auf "Fertig".
 
 Du kannst ausserdem dein Adressbuch einfach in Thunderbird einbinden.
@@ -132,6 +141,11 @@ Du kannst ausserdem deinen Kalender in Thunderbird einbinden.
 7. Im darauf folgenden Dialog, ändere den Eintrag unter "Server" auf `hosted.mailcow.de`. Bestätige anschliessend mit "OK".
 8. Das neue Passwort muss auch für den Mailversand eingesetzt werden. Erstelle dafür eine neue Email-Nachricht. Du kannst sie an dich selbst senden, wichtig ist nur, dass du auf "Senden" klickst. Dabei solltest du wieder nach deinem Passwort gefragt werden. Vergewissere dich auch hier, dass du dein Passwort speicherst, da du ansonsten bei jedem Email-Versand gefragt wirst.
 9. Prüfe anschliessend deinen Posteingang nach einer Email von dir selbst. Wenn du sie erhalten hast, hat der Versand erfolgreich geklappt.
+
+Für Adressbuch und Kalender kannst du die Adressen einfach anpassen. Nachfolgende Schritte funktionieren sowohl für Adressbuch und Kalender:
+
+10. In den entsprechenden Bildschirmen "Adressbuch" und "Kalender", suche den entsprechenden Eintrag aus der Leiste links. Klicke rechts auf den Eintrag und wähle "Eigenschaften".
+11. Im nachfolgenden Dialog, ändere die entsprechende Adresse (für Kalender heisst das Feld "Adresse", für Adressbücher "CardDAV URL"). Die entsprechenden Adressen entnimmst du dem Abschnitt "[Allgemeine Zugangsdaten][connections]".
 
 ## Adressbuch & Kalender umziehen
 
@@ -169,6 +183,7 @@ Du kannst deine Kalendereinträge genauso wie deine Adressbucheinträge exportie
 
 Solltest du mehrere Kalender haben, kannst du diesen Vorgang für jedes Adressbuch wiederholen.
 
+[connections]: #allgemeine-zugangsdaten
 [gunticloud]: https://mail.gunti.cloud
 [gunticloud-webmail]: https://mail.gunti.cloud/SOGo/
 [servercow]: https://servercow.de
