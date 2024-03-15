@@ -99,6 +99,28 @@ Du kannst entweder das bestehene Email-Konto aus Thunderbird löschen und neu an
 7. Solltest du die Einstellungen manuell erfassen müssen, benutze die oben unter "Allgemeine Zugangsdaten" genannten Infos.<br>![](./gnm-assets/thunderbird/add-3.png)
 8. Klicke anschliessend auf "Erneut testen". Sollte Thunderbird die Einstellungen akzeptieren, klicke auf "Fertig".
 
+Du kannst ausserdem dein Adressbuch einfach in Thunderbird einbinden.
+
+9. Wähle dazu in der Navigationsleiste links "Adressbuch".
+10. Klicke anschliessend neben "Neues Adressbuch" auf das Menü und wähle "CardDAV-Adressbuch hinzufügen".<br>![](./gnm-assets/thunderbird/addressbook-1.png)
+11. Füge unter "Benutzername" deine Email-Adresse ein.
+12. Füge unter "Adresse" folgende URL ein: `https://hosted.mailcow.de/SOGo/dav/<name>@guntersweiler.net/Contacts/personal/`.
+    Ersetze dabei `<name>@guntersweiler.net` mit deiner eigenen Email-Adresse. Klicke anschliessend auf "Weiter".
+13. Gib in der nachfolgenden Abfrage dein Passwort ein und stelle sicher, dass du die Option zum Passwort-Speichern aktiviert hast.
+14. Nachfolgend werden alle deine Adressbücher angezeigt. Klicke auf "Weiter".
+15. Deine Kontakte sollten nun angezeigt werden.<br>![](./gnm-assets/thunderbird/addressbook-2.png)
+
+Du kannst ausserdem deinen Kalender in Thunderbird einbinden.
+
+16. Wähle dazu in der Navigationsleiste links "Kalender".
+17. Klicke unten links auf "Neuer Kalender...".
+18. Im folgenden Fenster wählst du "Im Netzwerk" und dann "Nächste".
+19. Als Benutzername fügst du deine Email-Adresse ein.
+20. Unter "Adresse" fügst du folgende URL ein: `https://hosted.mailcow.de/SOGo/dav/<name>@guntersweiler.net/Calendar/personal/`. Ersetze dabei `<name>@guntersweiler.net` mit deiner eigenen Email-Adresse. Klicke anschliessend auf "Kalender suchen".
+21. Gib in der nachfolgenden Abfrage dein Passwort ein und stelle sicher, dass du die Option zum Passwort-Speichern aktiviert hast.
+22. Du solltest nun alle Kalender aufgelistet kriegen. Klicke auf "Abonnieren".
+23. Deine Kalendereinträge sollten nun angezeigt werden.<br>![](./gnm-assets/thunderbird/calendar-1.png)
+
 #### Bestehendes Konto ändern
 
 1. Klicke in Thunderbird auf das Menü > "Konten-Einstellungen"<br>!["Konten-Einstellungen" im Thunderbird-Menü](./gnm-assets/thunderbird/edit-1.png)
