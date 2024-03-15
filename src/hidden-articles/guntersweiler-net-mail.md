@@ -51,10 +51,38 @@ Mit den folgenden Zugangsdaten kannst du die gängisten Mail-Clients einrichten.
 
 ## Einrichten Endgeräte
 
-### iPhone
+### iPhone / iPad
 
-::: info Folgt demnächst
-:::
+Bevor du dein Email-Konto von deinem iPhone entfernst, prüfe erst ob das Konto über ein Profil hinzugefügt wurde.
+
+#### Profil entfernen
+
+1. Öffne die iPhone-Einstellungen und navigiere zu "Allgemein" > "VPN und Geräteverwaltung".
+2. Falls du einen Eintrag mit deiner Email-Adresse siehst, wurden dein Email-Konto über ein Profil hinzugefügt. Falls nicht, folge dem nächsten Abschnitt "Konto manuell entfernen".
+3. Wähle das Profil mit deiner Email-Adresse und tippe auf "Profil entfernen".<br>![](./gnm-assets/iphone/profile-1.jpg)
+   Bestätige anschliessend mit deinem PIN-Code und einem erneuten Tipp auf "Entfernen".
+
+Wenn du das Profil entfernt hast, kannst du den Abschnitt "Konto manuell entfernen" überspringen.
+
+#### Konto manuell entfernen
+
+1. Öffne die iPhone-Einstellungen und navigiere zu "Mail" > "Accounts".
+2. Tippe auf jeden Eintrag mit deiner Email-Adresse (oder einer passenden Beschreibung) und tippe anschliessend auf "Account löschen".
+3. Bestätige anschliessend mit "Vom iPhone löschen".
+
+#### Konto hinzufügen
+
+1. Öffne die iPhone-Einstellungen und navigiere zu "Mail" > "Accounts".
+2. Wähle anschliessend "Account hinzufügen".
+3. Wähle "Microsoft Exchange".<br>![](./gnm-assets/iphone/exchange-0.jpg)
+4. Gib anschliessend deine Email-Adresse und einen Namen für dein Postfach ein. Tippe anschliessend auf "Weiter".<br>![](./gnm-assets/iphone/exchange-1.jpg)
+5. In der nachfolgenden Frage wähle "Manuell konfigurieren".<br>![](./gnm-assets/iphone/exchange-2.jpg)
+6. Gib im nachfolgenden Bildschirm dein neues Passwort ein. Tippe auf "Weiter".
+7. Füge folgende Informationen hinzu und tippe anschliessend auf "Weiter":
+    - Server: `hosted.mailcow.de`
+    - Benutzername: _deine Email-Adresse_
+  <br>![](./gnm-assets/iphone/exchange-3.jpg)
+8. Wähle aus, welche Daten du synchroniseren möchtest und wähle anschliessend "Sichern".
 
 ### Mozilla Thunderbird
 
