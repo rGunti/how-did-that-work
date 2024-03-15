@@ -62,23 +62,23 @@ Du kannst entweder das bestehene Email-Konto aus Thunderbird löschen und neu an
 
 #### Konto neu anlegen (empfohlen)
 
-1. Entferne als erstes dein bestehendes Email-Konto aus Thunderbird. Klicke dazu auf das Menü > "Konten-Einstellungen"<br>!["Konten-Einstellungen" im Thunderbird-Menü](/public/gnm-assets/thunderbird/edit-1.png)
-2. Wähle dein Email-Konto in der Liste links aus. Klicke anschliessend auf "Konten-Aktionen" > "Konto entfernen".<br>![](/public/gnm-assets/thunderbird/delete-1.png)
+1. Entferne als erstes dein bestehendes Email-Konto aus Thunderbird. Klicke dazu auf das Menü > "Konten-Einstellungen"<br>!["Konten-Einstellungen" im Thunderbird-Menü](./gnm-assets/thunderbird/edit-1.png)
+2. Wähle dein Email-Konto in der Liste links aus. Klicke anschliessend auf "Konten-Aktionen" > "Konto entfernen".<br>![](./gnm-assets/thunderbird/delete-1.png)
 3. Bestätige im nachfolgenden Dialog mit "Entfernen".
-4. Klicke anschliessend erneut auf "Konten-Aktionen" und wähle "E-Mail-Konto hinzufügen...".<br>![](/public/gnm-assets/thunderbird/add-1.png)
+4. Klicke anschliessend erneut auf "Konten-Aktionen" und wähle "E-Mail-Konto hinzufügen...".<br>![](./gnm-assets/thunderbird/add-1.png)
 5. Gib deinen Namen, deine Email-Adresse und dein neues Passwort ein. Stelle sicher, dass "Passwort speichern" aktiviert ist. Klicke anschliessend auf "Weiter".
-6. Wenn Thunderbird die Einstellungen automatisch erkennt, prüfe ob der Posteingangs- und Postausgangs-Server als `hosted.mailcow.de` erkannt wurden. Wenn nicht, muss die Konfiguration manuell durchgeführt werden. Klicke dazu unten auf "Manuell einrichten". Sollten die Einstellungen korrekt erkannt worden sein, klicke auf "Fertig". Du kannst die folgenden Schritte überspringen.<br>![](/public/gnm-assets/thunderbird/add-2.png)
-7. Solltest du die Einstellungen manuell erfassen müssen, benutze die oben unter "Allgemeine Zugangsdaten" genannten Infos.<br>![](/public/gnm-assets/thunderbird/add-3.png)
+6. Wenn Thunderbird die Einstellungen automatisch erkennt, prüfe ob der Posteingangs- und Postausgangs-Server als `hosted.mailcow.de` erkannt wurden. Wenn nicht, muss die Konfiguration manuell durchgeführt werden. Klicke dazu unten auf "Manuell einrichten". Sollten die Einstellungen korrekt erkannt worden sein, klicke auf "Fertig". Du kannst die folgenden Schritte überspringen.<br>![](./gnm-assets/thunderbird/add-2.png)
+7. Solltest du die Einstellungen manuell erfassen müssen, benutze die oben unter "Allgemeine Zugangsdaten" genannten Infos.<br>![](./gnm-assets/thunderbird/add-3.png)
 8. Klicke anschliessend auf "Erneut testen". Sollte Thunderbird die Einstellungen akzeptieren, klicke auf "Fertig".
 
 #### Bestehendes Konto ändern
 
-1. Klicke in Thunderbird auf das Menü > "Konten-Einstellungen"<br>!["Konten-Einstellungen" im Thunderbird-Menü](/public/gnm-assets/thunderbird/edit-1.png)
-2. Wähle unter deinem Email-Konto den Punkt "Server-Einstellungen"<br>!["Server-Einstellungen"](/public/gnm-assets/thunderbird/edit-2.png)
+1. Klicke in Thunderbird auf das Menü > "Konten-Einstellungen"<br>!["Konten-Einstellungen" im Thunderbird-Menü](./gnm-assets/thunderbird/edit-1.png)
+2. Wähle unter deinem Email-Konto den Punkt "Server-Einstellungen"<br>!["Server-Einstellungen"](./gnm-assets/thunderbird/edit-2.png)
 3. Ändere im Feld "Server" die Adresse auf `hosted.mailcow.de`. Drücke anschliessend `ENTER`.
-4. Du wirst gebeten, Thunderbird neu zu starten. Klicke auf "Neu starten".<br>![](/public/gnm-assets/thunderbird/edit-3.png)
-5. Nach dem Neustart wirst du gebeten, das Passwort für deine neue Mailbox einzugeben. Gib hier das neue Passwort ein und stelle sicher, dass du den Punkt "Die Passwortverwaltung benutzen, um dieses Passwort zu speichern" aktiviert hast.<br>!["Passwort eingeben" in Thunderbird](/public/gnm-assets/thunderbird/edit-4.png)
-6. Gehe anschliessend zurück in die "Konten-Einstellungen" und wähle dein Konto aus. Der Eintrag enthält üblicherweise deine Email-Adresse. Klicke anschliessend unter "Postausgangs-Server (SMTP)" auf "Postausgangs-Server (SMTP) bearbeiten ..."<br>![](/public/gnm-assets/thunderbird/edit-5.png)
+4. Du wirst gebeten, Thunderbird neu zu starten. Klicke auf "Neu starten".<br>![](./gnm-assets/thunderbird/edit-3.png)
+5. Nach dem Neustart wirst du gebeten, das Passwort für deine neue Mailbox einzugeben. Gib hier das neue Passwort ein und stelle sicher, dass du den Punkt "Die Passwortverwaltung benutzen, um dieses Passwort zu speichern" aktiviert hast.<br>!["Passwort eingeben" in Thunderbird](./gnm-assets/thunderbird/edit-4.png)
+6. Gehe anschliessend zurück in die "Konten-Einstellungen" und wähle dein Konto aus. Der Eintrag enthält üblicherweise deine Email-Adresse. Klicke anschliessend unter "Postausgangs-Server (SMTP)" auf "Postausgangs-Server (SMTP) bearbeiten ..."<br>![](./gnm-assets/thunderbird/edit-5.png)
 7. Im darauf folgenden Dialog, ändere den Eintrag unter "Server" auf `hosted.mailcow.de`. Bestätige anschliessend mit "OK".
 8. Das neue Passwort muss auch für den Mailversand eingesetzt werden. Erstelle dafür eine neue Email-Nachricht. Du kannst sie an dich selbst senden, wichtig ist nur, dass du auf "Senden" klickst. Dabei solltest du wieder nach deinem Passwort gefragt werden. Vergewissere dich auch hier, dass du dein Passwort speicherst, da du ansonsten bei jedem Email-Versand gefragt wirst.
 9. Prüfe anschliessend deinen Posteingang nach einer Email von dir selbst. Wenn du sie erhalten hast, hat der Versand erfolgreich geklappt.
@@ -92,14 +92,14 @@ Leider können Adressbücher nicht automatisch umgezogen werden. Daher hier eine
 Du kannst dein ganzes Adressbuch über die Webmail-Oberfläche exportieren und importieren.
 
 1. Melde dich dafür auf dem [alten Webmail][gunticloud-webmail] mit deinen alten Anmeldedaten an.
-2. Wähle anschliessend oben in der Navigationsleiste "Addressbuch".<br>![](/public/gnm-assets/addressbook/export-ldif-1.png)
-3. Klicke bei deinem persönlichen Adressbuch auf das Drei-Punkte-Menü und wähle "Export".<br>![](/public/gnm-assets/addressbook/export-ldif-2.png)
-4. Du erhältst eine Datei zum Download. Diese wird später für den Import benötigt.<br>![](/public/gnm-assets/addressbook/export-ldif-3.png)
+2. Wähle anschliessend oben in der Navigationsleiste "Addressbuch".<br>![](./gnm-assets/addressbook/export-ldif-1.png)
+3. Klicke bei deinem persönlichen Adressbuch auf das Drei-Punkte-Menü und wähle "Export".<br>![](./gnm-assets/addressbook/export-ldif-2.png)
+4. Du erhältst eine Datei zum Download. Diese wird später für den Import benötigt.<br>![](./gnm-assets/addressbook/export-ldif-3.png)
 5. Melde dich anschliessend auf dem [neuen Webmail][servercow-webmail] mit deinen neuen Anmeldedaten an.
-6. Wähle anschliessend oben in der Navigationsleiste wieder "Addressbuch".<br>![](/public/gnm-assets/addressbook/export-ldif-1.png)
-7. Klicke bei deinem persönlichen Adressbuch auf das Drei-Punkte-Menü und wähle "Importieren".<br>![](/public/gnm-assets/addressbook/import-ldif-1.png)
+6. Wähle anschliessend oben in der Navigationsleiste wieder "Addressbuch".<br>![](./gnm-assets/addressbook/export-ldif-1.png)
+7. Klicke bei deinem persönlichen Adressbuch auf das Drei-Punkte-Menü und wähle "Importieren".<br>![](./gnm-assets/addressbook/import-ldif-1.png)
 8. Klicke auf "Hochladen" und wähle die Datei aus, die du zuvor heruntergeladen hast.
-9. Wenn alles funktioniert hat, solltest du all deine Kontakte wieder vorfinden.<br>![](/public/gnm-assets/addressbook/import-ldif-2.png)
+9. Wenn alles funktioniert hat, solltest du all deine Kontakte wieder vorfinden.<br>![](./gnm-assets/addressbook/import-ldif-2.png)
 
 Solltest du mehrere Adressbücher haben, kannst du diesen Vorgang für jedes Adressbuch wiederholen.
 
@@ -108,14 +108,14 @@ Solltest du mehrere Adressbücher haben, kannst du diesen Vorgang für jedes Adr
 Du kannst deine Kalendereinträge genauso wie deine Adressbucheinträge exportieren.
 
 1. Melde dich dafür auf dem [alten Webmail][gunticloud-webmail] mit deinen alten Anmeldedaten an.
-2. Wähle anschliessend oben in der Navigationsleiste "Kalender".<br>![](/public/gnm-assets/calendar/export-ical-1.png)
-3. Klicke bei deinem persönlichen Kalender auf das Drei-Punkte-Menü und wähle "Exportieren".<br>![](/public/gnm-assets/calendar/export-ical-2.png)
-4. Du erhältst eine Datei zum Download. Diese wird später für den Import benötigt.<br>![](/public/gnm-assets/calendar/export-ical-3.png)
+2. Wähle anschliessend oben in der Navigationsleiste "Kalender".<br>![](./gnm-assets/calendar/export-ical-1.png)
+3. Klicke bei deinem persönlichen Kalender auf das Drei-Punkte-Menü und wähle "Exportieren".<br>![](./gnm-assets/calendar/export-ical-2.png)
+4. Du erhältst eine Datei zum Download. Diese wird später für den Import benötigt.<br>![](./gnm-assets/calendar/export-ical-3.png)
 5. Melde dich anschliessend auf dem [neuen Webmail][servercow-webmail] mit deinen neuen Anmeldedaten an.
-6. Wähle anschliessend oben in der Navigationsleiste wieder "Kalender".<br>![](/public/gnm-assets/calendar/export-ical-1.png)
-7. Klicke bei deinem persönlichen Kalender auf das Drei-Punkte-Menü und wähle "Importieren".<br>![](/public/gnm-assets/calendar/import-ical-1.png)
+6. Wähle anschliessend oben in der Navigationsleiste wieder "Kalender".<br>![](./gnm-assets/calendar/export-ical-1.png)
+7. Klicke bei deinem persönlichen Kalender auf das Drei-Punkte-Menü und wähle "Importieren".<br>![](./gnm-assets/calendar/import-ical-1.png)
 8. Klicke auf "Hochladen" und wähle die Datei aus, die du zuvor heruntergeladen hast.
-9. Wenn alles funktioniert hat, solltest du all deine Kalendereinträge wieder vorfinden.<br>![](/public/gnm-assets/calendar/import-ical-2.png)
+9. Wenn alles funktioniert hat, solltest du all deine Kalendereinträge wieder vorfinden.<br>![](./gnm-assets/calendar/import-ical-2.png)
 
 Solltest du mehrere Kalender haben, kannst du diesen Vorgang für jedes Adressbuch wiederholen.
 
