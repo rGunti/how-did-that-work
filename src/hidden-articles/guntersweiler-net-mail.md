@@ -89,13 +89,35 @@ Leider können Adressbücher nicht automatisch umgezogen werden. Daher hier eine
 
 ### Adressbuch
 
-::: info Folgt demnächst
-:::
+Du kannst dein ganzes Adressbuch über die Webmail-Oberfläche exportieren und importieren.
+
+1. Melde dich dafür auf dem [alten Webmail][gunticloud-webmail] mit deinen alten Anmeldedaten an.
+2. Wähle anschliessend oben in der Navigationsleiste "Addressbuch".<br>![](/public/gnm-assets/addressbook/export-ldif-1.png)
+3. Klicke bei deinem persönlichen Adressbuch auf das Drei-Punkte-Menü und wähle "Export".<br>![](/public/gnm-assets/addressbook/export-ldif-2.png)
+4. Du erhältst eine Datei zum Download. Diese wird später für den Import benötigt.<br>![](/public/gnm-assets/addressbook/export-ldif-3.png)
+5. Melde dich anschliessend auf dem [neuen Webmail][servercow-webmail] mit deinen neuen Anmeldedaten an.
+6. Wähle anschliessend oben in der Navigationsleiste wieder "Addressbuch".<br>![](/public/gnm-assets/addressbook/export-ldif-1.png)
+7. Klicke bei deinem persönlichen Adressbuch auf das Drei-Punkte-Menü und wähle "Importieren".<br>![](/public/gnm-assets/addressbook/import-ldif-1.png)
+8. Klicke auf "Hochladen" und wähle die Datei aus, die du zuvor heruntergeladen hast.
+9. Wenn alles funktioniert hat, solltest du all deine Kontakte wieder vorfinden.<br>![](/public/gnm-assets/addressbook/import-ldif-2.png)
+
+Solltest du mehrere Adressbücher haben, kannst du diesen Vorgang für jedes Adressbuch wiederholen.
 
 ### Kalender
 
-::: info Folgt demnächst
-:::
+Du kannst deine Kalendereinträge genauso wie deine Adressbucheinträge exportieren.
+
+1. Melde dich dafür auf dem [alten Webmail][gunticloud-webmail] mit deinen alten Anmeldedaten an.
+2. Wähle anschliessend oben in der Navigationsleiste "Kalender".<br>![](/public/gnm-assets/calendar/export-ical-1.png)
+3. Klicke bei deinem persönlichen Kalender auf das Drei-Punkte-Menü und wähle "Exportieren".<br>![](/public/gnm-assets/calendar/export-ical-2.png)
+4. Du erhältst eine Datei zum Download. Diese wird später für den Import benötigt.<br>![](/public/gnm-assets/calendar/export-ical-3.png)
+5. Melde dich anschliessend auf dem [neuen Webmail][servercow-webmail] mit deinen neuen Anmeldedaten an.
+6. Wähle anschliessend oben in der Navigationsleiste wieder "Kalender".<br>![](/public/gnm-assets/calendar/export-ical-1.png)
+7. Klicke bei deinem persönlichen Kalender auf das Drei-Punkte-Menü und wähle "Importieren".<br>![](/public/gnm-assets/calendar/import-ical-1.png)
+8. Klicke auf "Hochladen" und wähle die Datei aus, die du zuvor heruntergeladen hast.
+9. Wenn alles funktioniert hat, solltest du all deine Kalendereinträge wieder vorfinden.<br>![](/public/gnm-assets/calendar/import-ical-2.png)
+
+Solltest du mehrere Kalender haben, kannst du diesen Vorgang für jedes Adressbuch wiederholen.
 
 [gunticloud]: https://mail.gunti.cloud
 [gunticloud-webmail]: https://mail.gunti.cloud/SOGo/
