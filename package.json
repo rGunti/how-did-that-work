@@ -14,7 +14,7 @@
   "devDependencies": {
     "@jcamp/vitepress-blog-theme": "0.3.0",
     "vitepress": "1.0.2",
-    "vue": "^3.2.47"
+    "vue": "^3.4.26"
   },
   "postcss": {
     "plugins": {
